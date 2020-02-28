@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(./img/simple-vintage-backgrounds-1.jpg);
+    background-size: cover;
+    padding: 0;
+    
+}
+.utama {    
+    margin: 10px auto;
+    border-radius: 60px;
+    /*border-bottom-left-radius: 60px;*/
+     /* margin-left: 100px; */
+     height: 100%;
+     width: 100%;
+     background-color: rgb(204, 158, 128)  ;
+     align-content: center;
+     font-family: 'Satisfy', cursive;
+     display: flex;
+     flex-direction: column;
+     box-shadow: 3px 3px 5px 6px black;
+     
+}
+#form_nama{
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    text-align: center;
+    
+}
+.Judul{
+    margin: 100px auto;
+    border-radius: 60px;
+    align-content: center;
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    width: 50%;
+}
+.info{
+    width:25%;
+    color:rgb(31, 28, 28);
+    padding: 10px;
+    
+}
+input[type=submit] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  
+  
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  .button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
